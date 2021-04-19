@@ -1,5 +1,6 @@
 package com.hms_networks.americas.sc.thingworx;
 
+import com.ewon.ewonitf.DefaultEventHandler;
 import com.ewon.ewonitf.ScheduledActionManager;
 import com.ewon.ewonitf.SysControlBlock;
 import com.ewon.ewonitf.TagControl;
@@ -300,6 +301,11 @@ public class TWConnectorMain {
         Logger.LOG_EXCEPTION(e2);
       }
     }
+    
+    // tag listener test
+    TagListenerThread tagListenerThread = new TagListenerThread();
+    tagListenerThread.start();
+    
 
     // Run the application until stopped via application control tag
     boolean isRunning = true;

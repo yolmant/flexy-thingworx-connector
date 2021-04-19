@@ -86,9 +86,9 @@ public class TWConnectorConsts {
    * Username for accessing Ewon Flexy via FTP. This user must be configured on the Ewon Flexy, and
    * must allow FTP access.
    */
-  public static final String CONNECTOR_CONFIG_FTP_USERNAME_KEY = "FtpUser";
+  public static final String CONNECTOR_CONFIG_FTP_USERNAME_KEY = "FtpUsername";
   /** Password for accessing Ewon Flexy via FTP. */
-  public static final String CONNECTOR_CONFIG_FTP_PASSWORD_KEY = "FtpPass";
+  public static final String CONNECTOR_CONFIG_FTP_PASSWORD_KEY = "FtpPassword";
 
   // Config Defaults
   /** The default value for the Thingworx URL. This is a helpful hint for customers. */
